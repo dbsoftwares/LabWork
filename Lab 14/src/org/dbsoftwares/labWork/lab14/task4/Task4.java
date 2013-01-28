@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Task4 {
   
-    public void sumAllPositiveEven() {
+    protected void sumAllPositiveEven() {
         System.out.println("Welcome! in task4");
         System.out.println("Give me a positive even integer");
         System.out.println("I will sum all the positive even integerers until that number!");

@@ -17,7 +17,7 @@ public class Task2 {
      * The machine generate a number between 1 and 100
      * The two player needs to guess it!
      */
-    public void GuessNumber() {
+    protected void GuessNumber() {
         System.out.println("Welcome! in task2");
         System.out.println("I will generate a number between 1 and 100.");
         System.out.println("You two need to guess it!");

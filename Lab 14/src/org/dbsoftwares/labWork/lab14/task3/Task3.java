@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class Task3 {
     
-    public void GuessNumber(){
+    protected void GuessNumber(){
         System.out.println("Welcome! in task3");
         System.out.println("I will generate a number between 1 and 100.");
         System.out.println("You two need to guess it!");
