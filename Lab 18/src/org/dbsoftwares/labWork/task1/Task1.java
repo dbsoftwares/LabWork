@@ -5,6 +5,7 @@
 package org.dbsoftwares.labWork.task1;
 
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  *
@@ -23,7 +24,18 @@ public class Task1 {
      * @param numberOfPlayers: the number of players 
      * you want to distribute cards to
      */
-    public void distrubuteCardsToPlayers(int numberOfPlayers) {
+    public void distrubuteCardsToPlayers() {
+        System.out.println("Welcome!");
+        System.out.println("This program will distribute cards in the game of Poker...");
+        System.out.println("Set the number of players:");
+        
+        Scanner input = new Scanner(System.in);
+        int numberOfPlayers = input.nextInt();
+        
+        System.out.println("The ditributed cards are:");
+        
+        
+        
         createDeck();
         shuffleDeck();
         
